@@ -1,0 +1,39 @@
+{
+    "name": "Adam's Source",
+    "subtitle": "Apps by Adam Grushan.",
+    "description": "Welcome to Adam's Source! Here you'll find my apps, starting with Museum Companion, an audio guide that recognizes the artwork you point your iPhone at.",
+    "website": "https://github.com/adamgrushan/altstore-source",
+    "tintColor": "#F4B02E",
+    "featuredApps": [
+        "com.adamgrushan.MuseumCompanion"
+    ],
+    "apps": [
+        {
+            "name": "Museum Companion",
+            "bundleIdentifier": "com.adamgrushan.MuseumCompanion",
+            "developerName": "Adam Grushan",
+            "subtitle": "Point your iPhone at an artwork and hear about it.",
+            "localizedDescription": "Point your iPhone at a painting and Museum Companion tells you about it in your headphones within a second or two.\n\nBefore a visit, download the museums you'll see from the Museums tab. The Van Gogh Museum and the Rijksmuseum in Amsterdam are available now. Artworks are recognized on your phone, offline.\n\n• Narrations from the museum's own texts, Wikipedia and Wikidata\n• Follow-up questions about the artwork in front of you\n• A history of every artwork you've identified, with its narration\n\nWritten narrations and follow-up questions need Apple Intelligence. Without it, the app reads the museum's texts. The first launch downloads a voice for narration (about 180 MB); until it's ready, the app uses the system voice.\n\nRequires an iPhone with iOS 26 or later.",
+            "iconURL": "https://raw.githubusercontent.com/adamgrushan/altstore-source/main/museum-companion/icon.png",
+            "tintColor": "#F4B02E",
+            "versions": [
+                {
+                    "version": "0.1",
+                    "buildVersion": "1",
+                    "date": "2026-11-24",
+                    "size": 132036739,
+                    "downloadURL": "https://github.com/adamgrushan/altstore-source/releases/download/museum-companion-v0.1/MuseumCompanion.ipa",
+                    "localizedDescription": "First release on AltStore.",
+                    "minOSVersion": "26.0"
+                }
+            ],
+            "appPermissions": {
+                "entitlements": [],
+                "privacy": {
+                    "NSCameraUsageDescription": "Museum Companion uses the camera to recognize the artwork you point it at."
+                }
+            }
+        }
+    ],
+    "news": []
+}
